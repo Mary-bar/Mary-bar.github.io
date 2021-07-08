@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#main">
+                        <img src="imgs/logo/ribuslogo.jpg" alt="logo">
+                    </a>             
+                </div>
+                <nav class="col-md-6">
+                    <ul class="menu">
+                        <li class="menu_item"><a href="#products" class="menu_link">Каталог</a></li>
+                        <li class="menu_item"><a href="#company" class="menu_link">О нас</a></li>
+                        <li class="menu_item"><a href="#shop" class="menu_link">Магазины</a></li>
+                        <li class="menu_item"><a href="#promo" class="menu_link">Акции</a></li>
+                        <li class="menu_item"><a href="#news" class="menu_link">Новости</a></li>
+                        <li class="menu_item"><a href="#contacts" class="menu_link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="col-md-2 offset-md-1 icon_block">
+                    <a href="https://www.instagram.com/ribus.shop/?igshid=1k8ve2pn4epmj" class="link_icon">
+                        <img src="imgs/icons/instagram.svg" alt="icon" class="img_icons">
+                    </a>
+                    <a href="https://vk.com/ribus.shop" class="link_icon">
+                        <img src="imgs/icons/vk.svg" alt="icon" class="img_icons">
+                    </a>
+                    <a href="https://ok.ru/group/60835080437945" class="link_icon">
+                        <img src="imgs/icons/odnoklass.svg" alt="icon" class="img_icons">
+                    </a>
+                    <a href="https://www.facebook.com/Ribusshop-104243905137949/" class="link_icon">
+                        <img src="imgs/icons/facebook.svg" alt="icon" class="img_icons">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- <section class="catalog_menu">
+        <div class="container">
+            <div class="catalog_wrapper">
+                <div class="span_wrapper">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="catalog_item">Каталог</div>
+            </div>
+            <div class="leftside_menu leftside_menu_away">
+                <button class="leftside_menu_close">
+                    <img src="" alt="">
+                </button>
+                <div class="leftside_menu_content">
+                    <ul class="leftside_menu_list">
+                        <li class="leftside_menu_item">
+                            <a class="leftside_menu_link" href="#">Обувь</a>
+                        </li>
+                        <li class="leftside_menu_item">
+                            <a class="leftside_menu_link" href="#">Одежда</a>
+                        </li>
+                        <li class="leftside_menu_item">
+                            <a class="leftside_menu_link" href="#">Сумки</a>
+                        </li>
+                        <li class="leftside_menu_item">
+                            <a class="leftside_menu_link" href="#">Аксессуары</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </section> -->
+
+    <section class="main" id="main">
+        <div class="container">
+            <div class="main_wrapper">
+                <div class="main_title">
+                    <h1>Подберите обувь, одежду и аксессуары вместе с нами!</h1>
+                    <p>Подборка образов от наших стилистов</p>
+                    <a href="#products" class="main_btn">Посмотреть</a>
+                </div>
+                <div class="products_carousel">
+                    <div>
+                        <img src="imgs/img/mainsummersale.jpg" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/mainfiftysale.jpg" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/mainbagwomen.jpg" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/mainmanclothes.jpg" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/mainwomenclothes.jpg" alt="banner" class="product_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <div class="products_box">
+                <div class="products_line"></div>
+                <div class="products_title">Каталог</div>
+                <div class="products_line"></div>
+            </div>
+
+            <ul class="products_tabs">
+                <li class="products_tab products_tab_active products_tab_1">
+                    <div>Для женщин</div>
+                </li>
+                <li class="products_tab products_tab_2">
+                    <div>Для мужчин</div>
+                </li>
+                <!-- <li class="products_tab products_tab_3">
+                    <div>Для детей</div>
+                </li> -->
+            </ul>
+
+            <!-- <div class="products_content products_content_active">
+                <ul class="products_menu">
+                    <li class="products_item"><a class="products_link" href="womenshoes.html">Обувь</a></li>
+                    <li class="products_item"><a class="products_link" href="">Сумки</a></li>
+                    <li class="products_item"><a class="products_link" href="">Одежда</a></li>
+                    <li class="products_item"><a class="products_link" href="">Аксессуары</a></li>
+                </ul>
+            </div>
+            <div class="products_content">
+                <ul class="products_menu">
+                    <li class="products_item"><a class="products_link" href="">Обувь</a></li>
+                    <li class="products_item"><a class="products_link" href="">Сумки</a></li>
+                    <li class="products_item"><a class="products_link" href="">Одежда</a></li>
+                    <li class="products_item"><a class="products_link" href="">Аксессуары</a></li>
+                </ul>
+            </div> -->
+
+            <div class="products_content products_content_active">
+                <ul class="products_menu">
+                    <li class="products_item products_item_1">
+                        <div class="products_link_box">
+                            <a class="products_link" href="womenshoes.html#woman_actual">актуальные модели сезона</a>
+                        </div>
+                    </li>
+                    <li class="products_item products_item_2">
+                        <div class="products_link_box">
+                            <a class="products_link" href="womenshoes.html#woman_outfit">outfit на каждый день</a>
+                        </div>
+                    </li>
+                    <li class="products_item products_item_3">
+                        <div class="products_link_box">
+                            <a class="products_link" href="womenshoes.html#woman_bag">сумка дополнит образ</a>
+                        </div>
+                    </li>
+                    <li class="products_item products_item_4">
+                        <div class="products_link_box">
+                            <a class="products_link products_link_4" href="womenshoes.html#woman_acces">подборка аксессуаров</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="products_content products_content_active">
+                <ul class="products_menu">
+                    <li class="products_item products_item_5">
+                        <div class="products_link_box">
+                            <a class="products_link" href="manshoes.html#man_actual">мужская коллекция</a>
+                        </div>
+                    </li>
+                    <li class="products_item products_item_6">
+                        <div class="products_link_box">
+                            <a class="products_link" href="manshoes.html#man_outfit">капсулы на каждый день</a>
+                        </div>
+                    </li>
+                    <li class="products_item products_item_7">
+                        <div class="products_link_box">
+                            <a class="products_link" href="manshoes.html#man_bag">подборка аксессуаров</a>
+                        </div>
+                    </li>
+                    <li class="products_item products_item_8">
+                        <div class="products_link_box">
+                            <a class="products_link" href="manshoes.html#man_acces">сумка дополнит образ</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <div class="products_content products_content_active">
+                <div class="products_carousel">
+                    <div>
+                        <img src="imgs/img/instwomenfirs.png" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/productwomensecond.png" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/productwomenthird.png" alt="banner" class="product_img">
+                    </div>
+                </div>
+                <div class="products_descr">Удобная обувь - залог лёгкой походки и хорошего настроения. А стильная
+                    сумочка станет верным спутником на любых мероприятиях и подчеркнёт вашу индивидуальность.
+                    <hr> Подберите стильную обувь и модные аксессуары к вашему весеннему образу в наших магазинах.
+                    <hr> Все самые актуальные новости в нашем Instagram @ribus.shop
+                </div>
+                <div class="products_sale">
+                    <img src="imgs/img/salewomfirst.jpg" alt="sale">
+                    <img src="imgs/img/salewomsecond.jpg" alt="sale">
+                    <img src="imgs/img/salewomthird.jpg" alt="sale">
+                </div>
+                <div class="figure_square"></div>
+                <div class="figure_circle"></div>
+                <div class="figure_triangle"></div>
+            </div>
+            <div class="products_content">
+                <div class="products_carousel">
+                    <div>
+                        <img src="imgs/img/prodmenfirst.png" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/prodmensecond.png" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/prodmenthird.png" alt="banner" class="product_img">
+                    </div>
+                </div>
+                <div class="products_descr">Как часто нам приходится пройти огромное количество магазинов в поисках удобной обуви, стильных аксессуаров и модной одежды?
+                    <hr> В наших магазинах вы сможете без труда подобрать одежду и обувь и дополнить образ необходимыми аксессуарами.
+                    <hr> Самые актуальные новости в нашем Instagram @ribus.shop 
+                </div>
+                <div class="products_sale">
+                    <img src="imgs/img/salemenfirst.jpg" alt="sale">
+                    <img src="imgs/img/salemensecond.jpg" alt="sale">
+                    <img src="imgs/img/salementhird.jpg" alt="sale">
+                </div>
+            </div>
+            <div class="products_content">
+                <div class="products_carousel">
+                    <div>
+                        <img src="imgs/img/instwomenfirs.png" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/productwomensecond.png" alt="banner" class="product_img">
+                    </div>
+                    <div>
+                        <img src="imgs/img/productwomenthird.png" alt="banner" class="product_img">
+                    </div>
+                </div>
+                <div class="products_descr">Удобная обувь - залог лёгкой походки и хорошего настроения. А стильная
+                    сумочка станет верным спутником на любых мероприятиях и подчеркнёт вашу индивидуальность.
+                    <hr> Подберите стильную обувь и модные аксессуары к вашему весеннему образу в наших магазинах.
+                    <hr> Все самые актуальные новости в нашем Instagram @ribus.shop</div>
+                <div class="products_sale">
+                    <img src="imgs/img/salewomfirst.jpg" alt="sale">
+                    <img src="imgs/img/salewomsecond.jpg" alt="sale">
+                    <img src="imgs/img/salewomthird.jpg" alt="sale">
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="company" class="company">
+        <div class="container">
+            <div class="company_box">
+                <div class="company_line"></div>
+                <div class="company_title">О нас</div>
+                <div class="company_line"></div>
+            </div>
+            <div class="company_text">
+                Магазин обуви и аксессуаров Рибус - это яркий дизайн, широчайший ассортимент на любой сезон и случай
+                жизни, покупателями которого являются люди самых разных возрастов, от малышей и молодёжи до женщин и
+                мужчин старшего возраста.
+                <hr> Рибус - мультибрендовый магазин, партнёрами которого являются известные европейские и российские
+                бренды, такие как: Riker, Shoiberg, Baden, Marco Tozzi, Wilmar, DinnoRicci, Тофа и многие другие.
+            </div>
+        </div>
+    </section>
+
+    <section class="brands" id="brands">
+        <div class="container">
+            <div class="brands_box">
+                <div class="brands_line"></div>
+                <div class="brands_title">Бренды</div>
+                <div class="brands_line"></div>
+            </div>
+            <div class="carousel_brands">
+                <div>
+                    <img src="imgs/img/caprice.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/betsy.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/berkonty.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/keddo.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/shoiberg.png" alt="">
+                </div>
+                <div>
+                    <img src="imgs/img/tofa.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/baden.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/baggini.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/dino.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/eltempo.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/dakkem.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/escan.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/guero.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/evita.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/rieker.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/marco.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/spur.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/ulet.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/vikonty.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/wilmar.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/mursu.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/rf.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/derem.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/nexpero.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/phany.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/roscote.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/tesoro.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/wasco.png" alt="brand">
+                </div>
+                <div>
+                    <img src="imgs/img/skazka.png" alt="brand">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="strong" id="strong">
+        <div class="container">
+            <div class="strong_box">
+                <div class="strong_line"></div>
+                <div class="strong_title">Наши конкурентные преимущества</div>
+                <div class="strong_line"></div>
+            </div>
+            <div class="strong_wrapper">
+                <div class="strong_block block_first">
+                    <div class="strong_subtitle">> 5000 моделей</div>
+                    <div class="white_box">
+                        <div class="strong_text">Широкий ассортимент женской и мужской обуви</div>
+                    </div>
+                </div>
+                <div class="strong_block block_second">
+                    <img src="imgs/icons/ruler.svg" alt="ruler">
+                    <div class="white_box">
+                        <div class="strong_text">Широкий размерный ряд</div>
+                    </div>
+                </div>
+                <div class="strong_block block_third">
+                    <img src="imgs/icons/shield.svg" alt="shield">
+                    <div class="white_box">
+                        <div class="strong_text">Качество, проверенное временем</div>
+                    </div>
+                </div>
+                <div class="strong_block block_fourth">
+                    <img src="imgs/icons/heels.svg" alt="foot">
+                    <div class="white_box">
+                        <div class="strong_text">Только оригинальные бренды Европы и России</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop" id="shop">
+        <div class="container">
+            <div class="shop_box">
+                <div class="shop_line"></div>
+                <div class="shop_title">Наши магазины</div>
+                <div class="shop_line"></div>
+            </div>
+            <div class="shop_wrapper">
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Боровичи</div>
+                        <div class="shop_descr">ул. Софьи Перовской, дом 3 (ТЦ Пирос)</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/pirosvhod.png" alt="img">
+                        <img src="imgs/img/piroszal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time"> Пн-Cб 10:00–20:00 ВС 10:00–19:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #160</div>
+                    </div>
+                </div>
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Липецк</div>
+                        <div class="shop_descr">ул. Меркулова, дом 2 (ТЦ Октябрьский)</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/oktjabrskijvhod.png" alt="img">
+                        <img src="imgs/img/oktjabrskijzal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time"> Пн-Вс 09:00–21:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #158</div>
+                    </div>
+                </div>
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Ступино</div>
+                        <div class="shop_descr">проспект Победы, дом 40 (ТЦ Райпо</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/stupinovhod.png" alt="img">
+                        <img src="imgs/img/stupinozal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time">Пн-Вс 10:00–21:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #155</div>
+                    </div>
+                </div>
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Видное</div>
+                        <div class="shop_descr"> Советский проезд, 4 (ТЦ Старая Прага)</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/vidnoevhod.png" alt="img">
+                        <img src="imgs/img/vidnoezal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time">Пн-Вс 10:00–21:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #145</div>
+                    </div>
+                </div>
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Подольск</div>
+                        <div class="shop_descr"> ул. Свердлова, дом 26 (ТЦ Галерея)</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/galerejavhod.png" alt="img">
+                        <img src="imgs/img/galerejazal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time">Пн-Вс 10:00–22:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #142</div>
+                    </div>
+                </div>
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Щелково</div>
+                        <div class="shop_descr">ул. Талсинская, дом 1 (ТЦ Подмосковье)</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/schelkovovhod.png" alt="img">
+                        <img src="imgs/img/schelkovozal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time">Пн-Вс 10:00–21:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #152</div>
+                    </div>
+                </div>
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Жуковский</div>
+                        <div class="shop_descr">ул. Баженова, дом 2А (ТЦ Авиатор)</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/aviatorvhod.png" alt="img">
+                        <img src="imgs/img/aviatorzal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time">Пн-Вс 10:00–22:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #144</div>
+                    </div>
+                </div>
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Коломна</div>
+                        <div class="shop_descr"> Советская пл., дом 8 (ТЦ Глобус)</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/globusvhod.png" alt="img">
+                        <img src="imgs/img/globuszal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time">Пн-Вс 10:00–21:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #148</div>
+                    </div>
+                </div>
+                <div class="shop_block">
+                    <div class="shop_adress">
+                        <div class="shop_subtitle">г. Москва</div>
+                        <div class="shop_descr">ул. Озерная, дом 42 (ТЦ Мичуринский)</div>
+                    </div>
+                    <div class="shop_img">
+                        <img src="imgs/img/michurinskijvhod.png" alt="img">
+                        <img src="imgs/img/michurinskijzal.png" alt="img">
+                    </div>
+                    <div class="shop_work">
+                        <div class="shop_time">Пн-Вс 10:00–21:00</div>
+                        <div class="shop_mobile">+7 (495) 241-18-20 #166</div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop_map">
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс.Карты</a><a
+                        href="https://yandex.ru/maps/?from=api-maps&ll=38.428836%2C55.575377&mode=usermaps&origin=jsapi_2_1_78&um=constructor%3Adbf69135dd9ec6a83c4853b102936bd6c555f8c14340c6060d3b56fbee134adb&utm_medium=mapframe&utm_source=maps&z=8.2"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — транспорт,
+                        навигация, поиск мест</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUeuLwlcC" width="100%"
+                        height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news" id="news">
+        <div class="container">
+            <div class="news_box">
+                <div class="news_line"></div>
+                <div class="news_title">Новости</div>
+                <div class="news_line"></div>
+            </div>
+            <div class="carousel_news">
+                <div class="slider_news news_block">
+                    <div class="news_point">СОЛНЦЕЗАЩИТНЫЕ ОЧКИ</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">16.04.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/glassesnew.jpg" alt="glasses" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Подобрать модные солнцезащитные очки в этом сезоне можно буквально под любой стиль.
+                                Сегодня границы трендов шире, чем когда-либо. Авиаторы, кошачий глаз, зеркальные,
+                                круглые и классические. В наших магазинах Вы найдете себе очки на любой вкус.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">КЕДЫ И КРОССОВКИ</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">30.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/sport.jpg" alt="sport shoes" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                На протяжении нескольких лет мода на кеды и кроссовки набирает обороты. И Весна-Лето
+                                2021 не исключение. Модные, яркие кеды это must-have всех гардеробов стильных девушек,
+                                которые ценят комфорт. Все новинки сезона: белые кеды, кеды с яркими принтами, с
+                                колор-блокингом вы найдете в магазинах Шаг Дня.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">ОБУВЬ ДЛЯ МУЖЧИН И ЖЕНЩИН</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">03.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/newcolection.jpg" alt="new collection" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Мы подготовили для Вас новую коллекцию мужской и женской обуви, которая Вам понравится.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">НОВАЯ КОЛЛЕКЦИЯ ЖЕНСКИХ ЛЕТНИХ СУМОК</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">03.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/newbag.jpg" alt="new collection" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Вас впечатлит новая коллекция сумок различных форм и цветов из натуральных материалов,
+                                экокожи в магазинах нашей сети!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">КОЛЛЕКЦИЯ МУЖСКИХ СУМОК И АКСЕССУАРОВ</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">03.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/man_bag.jpg" alt="new collection" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Новая коллекция мужских сумок и аксессуаров порадует Вас своим дизайном и безупречным
+                                качеством из натуральных материалов, экокожи в магазинах нашей сети!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">НОВАЯ КОЛЛЕКЦИЯ ШАПОК</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">03.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/newhats.jpg" alt="new collection" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Весенние модели модных шапок различных расцветок никого не оставят равнодушным.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">НОВАЯ КОЛЛЕКЦИЯ ПЛАТКОВ И ПАЛАНТИНОВ</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">03.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/newshawl.jpg" alt="new collection" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Встречаем весну новой коллекцией платков и палантинов. Горошек, клетка, цветочные мотивы
+                                и абстрактные узоры - у нас Вы найдете новый модный аксессуар на любой вкус.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">НОВАЯ КОЛЛЕКЦИЯ</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">12.02.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/banner_turkey.jpg" alt="new collection" class="new_img">
+                        <div class="news_descr">
+                            <a href="#" class="news_icon"><img src="imgs/icons/heart.svg" alt="like"></a>
+                            <div class="news_text">
+                                Встречайте новую коллекцию обуви в магазинах Шаг Дня!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="promo" id="promo">
+        <div class="container">
+            <div class="promo_box">
+                <div class="promo_line"></div>
+                <div class="promo_title">Акции</div>
+                <div class="promo_line"></div>
+            </div>
+            <div class="carousel_promo">
+                <div class="slider_news news_block">
+                    <div class="news_point">ЛЕТНЯЯ РАСПРОДАЖА. СКИДКИ ДО 70%
+                    </div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">11.06.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/summerimg.jpg" alt="promo" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Летняя распродажа уже началась! Спешите приобрести обувь, сумки, аксессуары со скидкой
+                                до 70%!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">СКИДКА 50%</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">01.05.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/fiftypromo.jpg" alt="promo" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Скидки 50% на второй товар в чеке в магазинах сети ШАГ ДНЯ!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">ДОПОЛНИТЕЛЬНАЯ СКИДКА 30% НА ВСЁ!</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">26.04.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/dopsalepromo.jpg" alt="promo" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Дополнительная скидка 30% на весь ассортимент! При покупке акционного товара вы
+                                получаете скидку на скидку!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">СКИДКИ 10%, 20%, 30%</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">13.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/spring_sales.jpg" alt="promo" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Товары из новой коллекции со скидками 10% на одну вещь, 20% на две вещи и 30% на три
+                                вещи в чеке!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">СКИДКА 30% НА ВЕСЕННИЕ ЖЕНСКИЕ САПОГИ И БОТИНКИ</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">13.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/banner_spring.jpg" alt="promo" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                Еще один повод обновить весеннюю обувь - скидка 30% на весенние женские сапоги и
+                                ботинки!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_news news_block">
+                    <div class="news_point">АКЦИЯ ДЕЙСТВУЕТ С 04.03 ПО 10.03.</div>
+                    <div class="data_block">
+                        <div class="data_box"></div>
+                        <div class="data_news">03.03.2021</div>
+                    </div>
+                    <div class="news_content">
+                        <img src="imgs/img/promomart.jpg" alt="promo" class="new_img">
+                        <div class="news_descr">
+                            <img src="imgs/icons/heart.svg" alt="like" class="news_icon">
+                            <div class="news_text">
+                                ТОЛЬКО ДЛЯ ВАС В ЧЕСТЬ 8 МАРТА СКИДКА 25% НА НОВУЮ КОЛЛЕКЦИЮ!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts_box">
+                <div class="contacts_line"></div>
+                <div class="contacts_title">Контакты</div>
+                <div class="contacts_line"></div>
+            </div>
+            <div class="contacts_block">
+                <div class="contacts_box_a">
+                    <div>
+                        <h2>Связаться с нами:</h2>
+                    </div>
+                    <form class="form" action="#" method="post">
+                        <input type="text" placeholder="Введите свое имя" name="name" value="" class="input">
+                        <input type="email" placeholder="Введите свой email" name="email" value="" class="input">
+                        <textarea style="resize: none" type="text" placeholder="Ваше сообщение" name="text" value=""
+                            class="input_mes"></textarea>
+                        <button class="form_btn" type="submit" name="button">Отправить</button>
+                    </form>
+                </div>
+                
+                <div class="contacts_box_b">
+                    <h2>Заполните форму или напишите нам:</h2>
+                    <a href="mailto:info@ribus.ru">info@ribus.ru</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="finish_line"></div>
+            <div class="finish_block">
+                <div class="finish_social">
+                    <div class="finish_text">Присоединяйтесь к нам!</div>
+                    <div class="finish_icons">
+                        <a href="https://www.instagram.com/ribus.shop/?igshid=1k8ve2pn4epmj" class="finish_round"><img
+                                src="imgs/icons/instagram.svg" alt="instagram"></a>
+                        <a href="https://vk.com/ribus.shop" class="finish_round"><img src="imgs/icons/vk.svg" alt="vk"></a>
+                        <a href="https://ok.ru/group/60835080437945" class="finish_round"><img src="imgs/icons/odnoklass.svg" alt="vk"></a>
+                        <a href="https://www.facebook.com/Ribusshop-104243905137949/" class="finish_round"><img src="imgs/icons/facebook.svg" alt="vk"></a>
+                    </div>
+                </div>
+                <div class="finish_box">
+                    <div class="finish_center">
+                        <div class="finish_icon"><img class="icon_img" src="imgs/icons/icon_footer.svg" alt="icon">
+                        </div>
+                        <div class="finish_text">100% Гарантия на продаваемый товар</div>
+                    </div>
+                    <div class="finish_center">
+                        <div class="finish_icon"><img class="icon_img" src="imgs/icons/icon_fpeople.svg" alt="icon">
+                        </div>
+                        <div class="finish_text">Квалифицированные сотрудники</div>
+                    </div>
+                    <div class="finish_center">
+                        <div class="finish_icon"><img class="icon_img" src="imgs/icons/icon_fcool.svg" alt="icon"></div>
+                        <div class="finish_text">Качественный товар большой ассортимент</div>
+                    </div>
+                </div>
+                <div class="finish_link">
+                    <a href="#header">На главную</a>
+                    <a href="#contacts">Связаться с нами</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
